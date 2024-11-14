@@ -1,0 +1,363 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('back_.jpg') no-repeat center center/cover;
+    padding: 200px 50px;
+    text-align: center;
+    color: black;
+}
+
+.hero-section h2 {
+    font-size: 3rem;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+}
+
+/* About Section */
+.about-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.about-section h2 {
+    margin-bottom: 20px;
+}
+
+
+/* Distributor Section */
+.distributor-section {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.distributor-section h2 {
+    margin-bottom: 20px;
+}
+
+.kyc-form .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+    max-width: 500px;
+    margin: 0 auto 15px;
+}
+
+.kyc-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.kyc-form input,
+.kyc-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.kyc-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.kyc-form button:hover {
+    background-color: #555;
+}
+
+/* Login Section */
+.login-section {
+    padding: 50px 20px;
+    background-color: #e2e2e2;
+    text-align: center;
+}
+
+.login-section h2 {
+    margin-bottom: 20px;
+}
+
+.login-form .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+    max-width: 500px;
+    margin: 0 auto 15px;
+}
+
+.login-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.login-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #555;
+}
+
+
+/* Product Section */
+.product-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #e2e2e2;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    background: #fff;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-item h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.product-item p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Testimonial Section */
+/* Testimonial Section */
+.testimonial-section {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    background: #f9f9f9;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+    font-style: italic;
+    color: #555;
+}
+
+.testimonial h4 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+
+/* Testimonials Section */
+.testimonial-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Distributor Section */
+.distributor-section {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.distributor-section h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.kyc-form, .login-form {
+    background: #fff;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 500px;
+    text-align: left;
+}
+
+.kyc-form label, .login-form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.kyc-form input, .login-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.kyc-form button, .login-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.kyc-form button:hover, .login-form button:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .social-icons {
+    list-style: none;
+    padding: 0;
+}
+
+footer .social-icons li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer .social-icons li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 50px 20px;
+    background-color: #e2e2e2;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
